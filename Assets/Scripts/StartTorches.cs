@@ -9,7 +9,6 @@ public class StartTorches : MonoBehaviour {
     [SerializeField] private float delayBetweenTorches = 0.5f;
     private Animator _animDoor1;
     private Animator _animDoor2;
-    private bool _hasTriggered = false;
 
     private readonly Dictionary<int, (Light[], GameObject[])> _torchData = new Dictionary<int, (Light[], GameObject[])>();
 
